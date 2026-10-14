@@ -49,3 +49,17 @@ for i in range(rows):
 plt.title("Simple SOM Result")
 plt.legend()
 plt.show()
+
+# --- Captured output ---
+# Training complete!
+#
+# Data mapping to SOM grid:
+# Data [1. 1.] --> Neuron (1, 1)
+# Data [1.2 0.8] --> Neuron (1, 1)
+# Data [0.8 1.2] --> Neuron (1, 1)
+# Data [4. 4.] --> Neuron (0, 1)
+# Data [4.2 3.8] --> Neuron (0, 1)
+# Data [3.8 4.2] --> Neuron (0, 1)
+# Data [7. 1.] --> Neuron (0, 1)
+# Data [7.2 1.2] --> Neuron (0, 1)
+# Data [6.8 0.8] --> Neuron (0, 1)

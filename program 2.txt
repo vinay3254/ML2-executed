@@ -123,3 +123,12 @@ for i, r in enumerate(rules, 1):
 
 print("Default: ELSE ->", negative_label)
 print(f"Accuracy: {acc * 100:.1f}%")
+
+# --- Captured output ---
+# Learned rules:
+# R1: Outlook=Overcast -> Yes
+# R2: Humidity=Normal AND Windy=False -> Yes
+# R3: Humidity=Normal AND Outlook=Sunny -> Yes
+# R4: Windy=False AND Outlook=Rain -> Yes
+# Default: ELSE -> No
+# Accuracy: 100.0%

@@ -67,3 +67,11 @@ for C, S, R in itertools.product(["Y", "N"], repeat=3):
 
 print("MPE for (C,S,R) given W=Y:", best)
 print("Unnormalized score ≈", round(bestp, 5))
+
+# --- Captured output ---
+# P(S=Y | C=Y) ≈ 0.333
+# P(R=Y | C=N) ≈ 0.500
+# P(C=Y | W=Y) ≈ 0.444
+# P(R=Y | W=Y) ≈ 0.444
+# MPE for (C,S,R) given W=Y: ('N', 'Y', 'Y')
+# Unnormalized score ≈ 0.14286

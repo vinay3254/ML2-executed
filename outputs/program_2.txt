@@ -1,0 +1,7 @@
+Learned rules:
+R1: Outlook=Overcast -> Yes
+R2: Humidity=Normal AND Windy=False -> Yes
+R3: Humidity=Normal AND Outlook=Sunny -> Yes
+R4: Windy=False AND Outlook=Rain -> Yes
+Default: ELSE -> No
+Accuracy: 100.0%

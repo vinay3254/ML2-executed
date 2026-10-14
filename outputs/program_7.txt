@@ -1,0 +1,28 @@
+P(Cloudy):
+ Cloudy
+N    0.571429
+Y    0.428571
+Name: proportion, dtype: float64 
+
+P(Sprinkler | Cloudy):
+ Sprinkler         N         Y
+Cloudy                       
+N          0.500000  0.500000
+Y          0.666667  0.333333 
+
+P(Rain | Cloudy):
+ Rain           N         Y
+Cloudy                    
+N       0.500000  0.500000
+Y       0.666667  0.333333 
+
+P(WetGrass | Sprinkler, Rain):
+ WetGrass           N     Y
+Sprinkler Rain            
+N         N     0.50  0.50
+          Y     0.50  0.50
+Y         N     0.25  0.75
+          Y     0.00  1.00 
+
+P(WetGrass=Y) ≈ 0.643
+P(Rain=Y | WetGrass=Y) ≈ 0.444

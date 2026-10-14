@@ -68,3 +68,31 @@ plt.ylabel(iris.feature_names[1])
 plt.title("K-means clusters on Iris (standardized)")
 plt.tight_layout()
 plt.show()
+
+# --- Captured output ---
+# === K-means summary ===
+# k = 3
+#
+# Cluster sizes:
+# cluster
+# 0    53
+# 1    50
+# 2    47
+#
+# Silhouette score: 0.46
+#
+# Cluster centers (in standardized space):
+#    sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+# 0             -0.050            -0.883              0.348             0.282
+# 1             -1.015             0.853             -1.305            -1.255
+# 2              1.136             0.088              0.996             1.018
+#
+# Cluster to species mapping:
+# {0: 'versicolor', 1: 'setosa', 2: 'virginica'}
+#
+# Cross-tab:
+# true_species  setosa  versicolor  virginica
+# cluster                                    
+# 0                  0          39         14
+# 1                 50           0          0
+# 2                  0          11         36
